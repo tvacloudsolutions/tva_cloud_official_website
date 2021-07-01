@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <title>contact admin</title>
+  <style>
+    header {
+      background-color: #b1a1ed;
+      color: white;
+
+    }
+
+
+    li#head {
+      float: right;
+    }
+
+    li#head.logo {
+      float: left;
+      margin-left: 37px;
+    }
+
+    a#hov :hover {
+      background-color: white;
+      color: #b1a1ed;
+
+    }
+
+    li#head a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li#head a:hover {
+      background-color: white;
+      color: #b1a1ed;
+    }
+
+    footer {
+      color: whitesmoke;
+      background: #b1a1ed;
+    }
+
+    hr {
+      border: 1px solid white;
+    }
+
+    .social a {
+      font-size: 2.5em;
+      padding: 0.5rem;
+
+    }
+
+    .fa-facebook {
+      color: #b1a1ed;
+
+    }
+
+    .fa-twitter {
+      color: #b1a1ed;
+    }
+
+    .fa-linkedin {
+      color: #b1a1ed;
+    }
+
+    .fa-instagram {
+      color: #b1a1ed;
+    }
+
+    .fa-facebook:hover,
+    .fa-twitter:hover,
+    .fa-instagram:hover,
+    .fa-linkedin:hover {
+      color: #d5d5d5;
+      ;
+    }
+
+    .rounded-circle {
+      background-color: white;
+      width: 100px;
+      height: 60px;
+
+    }
+
+    h1,
+    h3,
+    h5 {
+      font-weight: 200;
+      font-family: sans-serif;
+    }
+
+    .container {
+      margin: 0px 120px;
+      padding: 0px 90px;
+    }
+
+    th {
+      background-color: #e6e6e6;
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+
+    b {
+      font-weight: 600;
+    }
+
+    table {
+      margin: 2px 2px;
+      width: 100%;
+    }
+
+    .priceTable {
+      padding: 0 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header><span>
+      <ul style="
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #b1a1ed;">
+
+        <li id="head"><a href="faq.html">FAQ</a></li>
+        <li id="head"><a href="contact.html">CONTACT</a></li>
+
+        <li id="head"><a href="services.html">SERVICES</a></li>
+        <li id="head"><a href="index.html">ABOUT US</a></li>
+        <li id="head" class="logo"><a id="hov" href="index.html">T V A</a></li>
+      </ul>
+    </span>
+  </header>
+  <br>
+
+  <div class="container">
+    <div class="card" style="padding: 10px 20px;">
+      <h1 style="text-align: center;">Storage Pricing</h1>
+      <p>This document discusses pricing for Cloud Storage. For OwnCloud, which offers simple online storage for
+        your personal files</p>
+      <h2>Overview</h2>
+      <p>Cloud Storage pricing is based on the following components:
+      <ul>
+        <li><b> Data storage:</b> the amount of data stored in your buckets. Storage rates vary depending on the storage
+          class of your data and location of your files/folders.</li>
+        <li><b>Network usage:</b> the amount of data read from or moved between your files/folders.</li>
+        <li><b>Operations usage:</b> the actions you take in Cloud Storage, such as listing the objects in your files/folders.
+        </li>
+        <li><b>Retrieval and early deletion fees:</b> applicable for data stored in the Nearline Storage, Coldline
+          Storage, and Archive Storage classes.</li>
+      </ul>
+      </p>
+      <p>For example, suppose you have the following storage usage pattern for My-storage in a given month:</p>
+      <div class="priceTable">
+        <table>
+          <thead>
+            <tr>
+              <th>Pricing <br> Category</th>
+              <th>Type of Usage</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><a>Data storage</a></td>
+              <td>Standard Storage in a region</td>
+              <td>50 GB (the average amount of data in your bucket <br> over the course of the month)</td>
+            </tr>
+            <tr>
+              <td><a>Network</a></td>
+              <td>EMEA</td>
+              <td>1 GB</td>
+            </tr>
+            <tr>
+              <td><a>Operations</a></td>
+              <td>Class A operations (object adds, bucket and <br> object listings)</td>
+              <td>10,000 operations</td>
+            </tr>
+            <tr>
+              <td><a>Operations</a></td>
+              <td>Class B operations (object gets, retrieving bucket <br> and object metadata)</td>
+              <td>50,000 operations</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br><br>
+      <p>Your bill for the month for <code>My-storage</code> is calculated as follows:</p>
+
+      <div class="priceTable">
+        <table>
+          <thead>
+            <tr>
+              <th>Pricing <br> Category <br></th>
+              <th>Calculation</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Data Storage</td>
+              <td>50 GB Standard Storage * ₹1.40 per GB</td>
+              <td>₹<span style="float:center">70.00</span></td>
+            </tr>
+            <tr>
+              <td>Network</td>
+              <td>1 GB EMEA * ₹8.40 per GB</td>
+              <td>₹<span style="float:center">8.40</span></td>
+            </tr>
+            <tr>
+              <td>Operations</td>
+              <td>10,000 Class A operations * ₹3.50 per 10,000 operations</td>
+              <td>₹<span style="float:center">3.50</span></td>
+            </tr>
+            <tr>
+              <td>Operations</td>
+              <td>50,000 Class B operations * ₹0.28 per 10,000 operations</td>
+              <td>₹<span style="float:center">1.40</span></td>
+            </tr>
+            <tr>
+              <td><strong>Total</strong></td>
+              <td></td>
+              <td><strong>₹<span style="float:center">83.30</span></strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer class="text-center border text-capitalize p-4 mt-4 border-dark container-fluid">
+    <div class="row">
+      <div class="col-md-4 border-right">
+        <p> <a href="contact.html" style="color: white;">contact</a> <br>
+          <a href="pricing.html" style="color: white;">pricing</a><br>
+          <a href="mailto:1by17cs044@bmsit.in" style="color: white;"> mail us</a><br>
+          <a href="contact.html" style="color: white;">partner with us</a>
+
+        </p>
+      </div>
+      <div class="col-md-4 border-right social padding">
+        <h4>CONNECT WITH US</h4>
+        <a href="https://www.facebook.com" target="_blank"><span class="rounded-circle"><i
+              class=" mx-2 fab fa-facebook"></i></span></a>
+
+        <a href="https://twitter.com/?lang=en" target="_blank"><span class="rounded-circle"><i
+              class="mx-2 fab fa-twitter"></i></span></a>
+
+        <a href="https://www.instagram.com/" target="_blank"><span class="rounded-circle"><i
+              class="mx-2 fab fa-instagram"></i></span></a>
+
+        <a href="https://www.linkedin.com/" target="_blank"><span class="rounded-circle"><i
+              class="mx-2 fab fa-linkedin"></i></span></a>
+      </div>
+      <div class="col-md-4">
+        <p> like us<br>
+          meet us<br>
+          <a href="termsOfService.html" style="color: white;"> Terms of Service</a><br>
+          app
+
+        </p>
+      </div>
+    </div>
+    <hr style="border :1px solid white;">
+    <p>&copy; copyright 2021</p>
+  </footer>
+
+
+  <br><br>
+
+</body>
+
+</html>
